@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Servicios informáticos</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/font-slider/fonts.css">
+  <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <script src="dist/sweetalert.min.js"></script>
+
+  <script>
+      function mensaje(){
+        //swal("Bienvenido a INNOVADORES!", "Muchas gracias...");
+
+        //swal({   title: "Sweet!",   text: "Here's a custom image.",   imageUrl: "images/empresa02.jpg" });
+        swal({   title: "Visita número 10k!",   text: "Se cerrará en 10 segundos.",   timer: 10000,   showConfirmButton: true });
+
+      }
+  </script>
+
+</head>
+<body onload="mensaje();">
+  <div class="social">
+    <ul>
+      <li><a href="http://www.facebook.com/jmejiarojas" class="icon-facebook" target="_blank"></a></li>
+      <li><a href="https://dev.twitter.com/" class="icon-twitter" target="_blank"></a></li>
+      <li><a href="https://plus.google.com/" class="icon-google" target="_blank"></a></li>
+      <li><a href="https://mail.google.com/" class="icon-mail" target="_blank"></a></li>
+      <li><a href="https://www.youtube.com/watch?v=kNrn0OibLi8" class="icon-youtube" target="_blank"></a></li>
+    </ul>
+  </div>
+  <div class="contenedor">
+    
+    <div class="logo">
+      <!--El logo lo introduciremos con css-->
+    </div>
+    
+    <!--Este es el codigo para el audio-->
+    <div id="audio">
+        <audio  controls autoplay loop>
+            <source src="audio/numb.mp3" type="audio/mp3"/>
+            <source src="audio/numb.ogg" type="audio/ogg"/>
+        </audio>
+    </div>
+    
+    <header>
+      <nav>
+      <ul>
+        <li><a href="index.html" class="seleccionado">INICIO</a></li>
+        <li><a href="la-empresa.html">LA EMPRESA</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="clientes.html">CLIENTES</a></li>
+        <li><a href="soporte.html">SOPORTE</a></li>
+        <!--<li><a href="contactenos">CONTACTO</a></li>-->
+        <li><a href="el-mapa.html">CONTACTO</a></li>
+        
+      </ul>
+      </nav>
+    </header>
+
+    <!--Comentamos estas lineas del banner para podr agregar sliders-->
+    <!-- <div class="banner">
+      <img src="images/banner2.jpg" alt="" width="100%" alt="">
+    </div> -->
+    
+    <!--Estas son las lineas para agregar el slider-->
+    <div class="main">
+    <div class="slides">
+      <img src="images/slides/google-2.jpg" alt="">
+      <img src="images/slides/disenoweb-1.jpg" alt="">
+      <img src="images/slides/pagesweb.jpg" alt="">
+      <img src="images/slides/social.jpg" alt="">
+      <img src="images/slides/web.jpg" alt="">
+    </div>
+    </div>
+    <div class="cuerpo">
+
+        <div class="texto"> 
+            <div class="cajaTitulo">
+            <h1 class="encabezado">¿QUÉ HACEMOS?</h1>
+            </div>
+        </div>
+        <div class="columnas">
+        <div class="columna1 padineado">
+          <img src="images/imagecolumna1.jpg" alt="">
+          <h2>Desarrollo y diseño web profesional</h2>
+          <p>Programación y diseño de páginas web a medida, compatibles con móviles y con la tecnología más reciente.</p>
+        </div>
+        <div class="columna2 padineado"> 
+          <img src="images/imagecolumna2.jpg" alt="">
+          <h2>Páginas web prediseñadas y económicas</h2>
+          <p>
+          Un presupuesto limitado no significa que su empresa no merezca una página web profesional.</p>
+        </div>
+
+        <div class="columna3 padineado">
+          
+          <img src="images/imagecolumna3.jpg" alt="">
+          <h2>Posicionamiento en Google</h2>
+          <p>
+          Aparecer en los primeros lugares de Google es posible con la estrategia correcta. Así conseguirá más prospectos y cerrará más ventas.</p>
+        </div> 
+
+        <div class="columna4 padineado">
+          
+          <img src="images/imagecolumna4.jpg" alt="">
+          <h2>Publicidad y marketing digital</h2>
+          <p>
+          Google y Facebook son los mejores lugares de la internet para hacer publicidad. Le enseñaremos los trucos de expertos para crear campañas memorables.</p>
+        </div>  
+            
+            
+            <!--Aca creamos un titulo para la pantesala del video-->
+             <div class="texto"> 
+            <div class="cajaTitulo">
+            <h1 class="encabezado">¿QUÉ NOS RESPALDA?</h1>
+            </div>
+            </div>
+        
+           <div class="columna5Index padineado">
+          
+            <ul class="lista-checkada">
+              <li> <span class="icon-check">Más de 5 años de experiencia profesional</span> </li>
+              <li><span class="icon-check">Más de 100 empresas satisfechas</span></li>
+              <li><span class="icon-check">Más de 5 mil suscriptores en YouTube</span></li>
+              <li><span class="icon-check">Más de 2 mil seguidores en Facebook</span></li>
+              <li><span class="icon-check">Somos los mejores en el mercado.</span></li>
+            </ul>
+                  
+            </div> 
+
+        <div class="columna6Index">
+          
+          <div id="video">
+              <video width="520" height="300" controls  preload poster="images/fondoVideo.png" loop>
+                  <source src="video/video5.mp4" type="video/mp4"/>
+              </video>
+          </div>
+          
+        </div>  
+
+        </div>
+    </div>
+    <footer>
+      <!--Aca lo dividimos en 3 columnas-->
+      <div class="columFooter1">
+        <h2>LOGO LEGO</h2>
+        <ul class="columnaIconos">
+          <li class="icon-address"> AAHH. Enrique Milla Ochoa Mz x</li>
+          <li class="icon-address"> Los Olivos</li>
+          <li class="icon-mobile"> 979333304(RPC)/ 998530820(RPM)</li>
+          <li class="icon-browser"> Interbank soles: 330-306692808-7</li>
+          <li class="icon-browser"> BCP Soles: 191-25906095-0-70</li>
+          <li class="icon-browser"> Interbank dólares: 493-3056453826</li>
+          <li class="icon-mail"> julioedgarmejiarojas338@gmail.com</li>
+        </ul>
+      </div>
+      <div class="columFooter2">
+        <h2>SERVICIOS</h2>
+       <ul>
+          <li><a href="servicios.html" class="icon-check">Páginas web</a></li>
+          <li><a href="servicios.html" class="icon-check">Asesoría Académica</a></li>
+          <li><a href="servicios.html" class="icon-check">Outsorcing</a></li>
+          <li><a href="servicios.html" class="icon-check">Sistemas Informáticos</a></li>
+        </ul>
+      </div>
+      <div class="columFooter3">
+        <h2>SOBRE LA EMPRESA</h2>
+        <ul>
+          <li><a href="la-empresa.html" class="icon-check">Nosotros</a></li>
+          <li><a href="clientes.html" class="icon-check">Clientes</a></li>
+          <li><a href="soporte.html" class="icon-check">Soporte técnico</a></li>
+          <li><a href="el-mapa.html" class="icon-check">Contáctenos</a></li>
+          <li><a href="el-mapa.html" class="icon-check">Ubícanos</a></li>
+        </ul>
+      </div>
+
+      
+
+    </footer>
+
+  </div>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.slides.js"></script>
+  <script>
+         
+  
+
+      $(function(){
+      $(".slides").slidesjs({
+
+        width: 700,
+        height: 200,
+        play: {
+          active: true,
+            // [boolean] Generate the play and stop buttons.
+            // You cannot use your own buttons. Sorry.
+          effect: "slide",
+            // [string] Can be either "slide" or "fade".
+          interval: 3000,
+            // [number] Time spent on each slide in milliseconds.
+          auto: true,
+            // [boolean] Start playing the slideshow on load.
+          swap: true,
+            // [boolean] show/hide stop and play buttons
+          pauseOnHover: false,
+            // [boolean] pause a playing slideshow on hover
+          restartDelay: 2500
+            // [number] restart delay on inactive slideshow
+        }
+      });
+    });
+
+         
+      
+      
+
+  </script>
+</body>
+</html>
