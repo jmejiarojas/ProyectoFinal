@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Servicios informáticos</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <script src="dist/sweetalert.min.js"></script>
+   <script>
+      function mensaje(){
+        swal("Mensaje Enviado!", "Te responderemos al instante!", "success");
+      }
+  </script>
+</head>
+<body>
+
+  <div class="social">
+    <ul>
+      <li><a href="http://www.facebook.com/jmejiarojas" class="icon-facebook" target="_blank"></a></li>
+      <li><a href="https://dev.twitter.com/" class="icon-twitter" target="_blank"></a></li>
+      <li><a href="https://plus.google.com/" class="icon-google" target="_blank"></a></li>
+      <li><a href="https://mail.google.com/" class="icon-mail" target="_blank"></a></li>
+      <li><a href="https://www.youtube.com/watch?v=kNrn0OibLi8" class="icon-youtube" target="_blank"></a></li>
+    </ul>
+  </div>
+  <div class="contenedor">
+    
+    <div class="logo">
+      <!--El logo lo introduciremos con css-->
+    </div>
+    <header>
+      <nav>
+      <ul>
+         <li><a href="index.html">INICIO</a></li>
+        <li><a href="la-empresa.html">LA EMPRESA</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="clientes.html">CLIENTES</a></li>
+        <li><a href="soporte.html">SOPORTE</a></li>
+        <!--<li><a href="contactenos">CONTACTO</a></li>-->
+        <li><a href="el-mapa.html" class="seleccionado">CONTACTO</a></li>
+        
+      </ul>
+      </nav>
+    </header>
+    <!--
+    <div class="banner">
+      <img src="images/banner.jpg" alt="" width="100%" alt="">
+    </div>
+    -->
+    <div class="cuerpoMapa">
+
+        <div class="texto"> 
+            <div class="cajaTitulo">
+            <h1 class="encabezado">CENTRO DE ATENCIÓN AL CLIENTE</h1>
+            </div>
+        </div>
+        
+        <div class="columnaDerecha">
+          <div class="formulario">
+          <h2>Contáctenos</h2>
+            <p id="titulo">
+              
+              <!--Llene el siguiente formulario y le contestaremos a la mayor brevedad. También puede contactarnos a lo teléfonos, correos y redes sociales que aparecen en esta página.-->
+              Carlos Alberto Izaguirre 233, Independencia 15311<br>
+              Lima, Perú.
+
+            </p>
+
+            <form action="">
+              
+              <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+              
+              <input type="text" id="ape" name="ape" placeholder="Apellidos"/>
+              <input type="text" id="empresa" name="empresa" placeholder="Su Empresa"/>
+              <input type="text" id="correo" name="correo" placeholder="Correo electrónico"/>
+              <input type="text" id="telefono" name="telefono" placeholder="Teléfono"/>
+
+              <input type="text" id="pais" name="pais" placeholder="País"/>
+              
+              <textarea  name="Description" maxlength="1000" placeholder="Escriba su mensaje"></textarea>
+              
+              <!--<input type="submit" value="Enviar" onclick="javascript:mensaje();">-->
+              <a href="#" class="boton" onclick="javascript:mensaje();">Enviar</a>
+
+            </form>
+
+          </div>
+         
+        </div>       
+        <div class="columnaIzquierda">
+          <div class="mapa">
+          <p class="titulo2">
+            <h2 class="mapa-Ubicanos">Ubícanos</h2>
+          </p>
+          
+          <iframe class="top15" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.777119397812!2d-77.0610908!3d-11.98991835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce53c69e3575%3A0x586e76dff7534a44!2sCibertec!5e0!3m2!1ses!2spe!4v1433107377664" width="400" height="500" frameborder="0" style="border:0"></iframe>
+
+          </div> 
+        </div>
+      <!--
+      <div class="columnas">
+        <div class="columna1 padineado">
+          <img src="images/imagecolumna1.jpg" alt="">
+          <h2>Desarrollo y diseño web profesional</h2>
+          <p>Programación y diseño de páginas web a medida, compatibles con móviles y con la tecnología más reciente.</p>
+        </div>
+        <div class="columna2 padineado"> 
+          <img src="images/imagecolumna2.jpg" alt="">
+          <h2>Páginas web prediseñadas y económicas</h2>
+          <p>
+          Un presupuesto limitado no significa que su empresa no merezca una página web profesional.</p>
+        </div>
+
+        <div class="columna3 padineado">
+          
+          <img src="images/imagecolumna3.jpg" alt="">
+          <h2>Posicionamiento en Google</h2>
+          <p>
+          Aparecer en los primeros lugares de Google es posible con la estrategia correcta. Así conseguirá más prospectos y cerrará más ventas.</p>
+        </div> 
+
+        <div class="columna4 padineado">
+          
+          <img src="images/imagecolumna4.jpg" alt="">
+          <h2>Publicidad y marketing digital</h2>
+          <p>
+          Google y Facebook son los mejores lugares de la internet para hacer publicidad. Le enseñaremos los trucos de expertos para crear campañas memorables.</p>
+        </div>  
+        </div>
+        -->
+
+    </div>
+    <footer>
+      <!--Aca lo dividimos en 3 columnas-->
+      <div class="columFooter1">
+        <h2>LOGO LEGO</h2>
+        <ul class="columnaIconos">
+          <li class="icon-address"> AAHH. Enrique Milla Ochoa Mz x</li>
+          <li class="icon-address"> Los Olivos</li>
+          <li class="icon-mobile"> 979333304(RPC)/ 998530820(RPM)</li>
+          <li class="icon-browser"> Interbank soles: 330-306692808-7</li>
+          <li class="icon-browser"> BCP Soles: 191-25906095-0-70</li>
+          <li class="icon-browser"> Interbank dólares: 493-3056453826</li>
+          <li class="icon-mail"> julioedgarmejiarojas338@gmail.com</li>
+        </ul>
+      </div>
+      <div class="columFooter2">
+        <h2>SERVICIOS</h2>
+        <ul>
+          <li><a href="servicios.html" class="icon-check">Páginas web</a></li>
+          <li><a href="servicios.html" class="icon-check">Asesoría Académica</a></li>
+          <li><a href="servicios.html" class="icon-check">Outsorcing</a></li>
+          <li><a href="servicios.html" class="icon-check">Sistemas Informáticos</a></li>
+        </ul>
+      </div>
+      <div class="columFooter3">
+        <h2>SOBRE LA EMPRESA</h2>
+        <ul>
+          <li><a href="la-empresa.html" class="icon-check">Nosotros</a></li>
+          <li><a href="clientes.html" class="icon-check">Clientes</a></li>
+          <li><a href="soporte.html" class="icon-check">Soporte técnico</a></li>
+          <li><a href="el-mapa.html" class="icon-check">Contáctenos</a></li>
+          <li><a href="el-mapa.html" class="icon-check">Ubícanos</a></li>
+        </ul>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
